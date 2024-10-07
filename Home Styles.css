@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
+body{
+    background-image: url(Images/Port.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.logo{
+    float:left;
+}
+
+.navi_links{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+     }
+  
+.navi_links li {
+    float: right;
+  }
+  
+.navi_links li a:hover {
+    background-color: #111;
+  }
+.Qoute{
+    clear:left;
+    text-align: center;;
+    color:rgb(0, 0, 0);
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Mission{
+    clear:left;
+    color:rgb(255, 255, 255);
+    background-color: rgba(0,60,109,0.80);
+    width: 600px;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 5px;
+
+   
+    }
+.Mission > p {
+    text-indent: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
